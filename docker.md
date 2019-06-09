@@ -50,9 +50,5 @@ docker container kill  CONTAINER_ID
 - CMD 命令是什么?  
 Docker 脚本最后一句话, 但是不能再run 命令后面加 shell 启动命令, 否则会覆盖
 
-
-
-
-
-Reference  
-TODO  
+# Reference  
+本文参考阮一峰老师的教程: http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html , 目前我并没有在实际工作场景中应用过 docker, 不知道的还有很多. 但是了解这么多目前也够了. 理解原理即可. 
