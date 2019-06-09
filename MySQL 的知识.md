@@ -32,13 +32,24 @@ brew --help| less
 brew services --help  
 brew info SERVICE_X | less  
 
-- ps 命令详解  
-ps -ef 的各个字段解释如下, 依照出现顺序:  
-UID, user_id  
-PID  
-PPID  
-...  
-CMD, 启动这个进程用到的命令  
-   > 参考: https://www.cnblogs.com/freinds/p/8074651.html
+
+- Mysql 启动失败, Error 2002
 
 
+- MySQL 的导入导出  
+mysqldump -u root -p [-h IP] DATABASE_NAME [TABLE_NAME] > OUTPUT.sql  
+mysql -uroot -p DATABASE_NAME < INPUT.sql  
+
+- MySQL shell 的几个命令  
+show 命令  
+   - show processlist  
+   - show variables like '%XXX%'# 可以查看系统的一些配置.    
+   - show databases;  
+   - show tables;  
+   使用非常的广泛!!
+
+- MySQL 开启远端连接  
+bind-address=0.0.0.0 # 在配置文件里面.  
+update user set host='%' where user='root';  
+flush privileges;  
+   
