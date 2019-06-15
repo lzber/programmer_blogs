@@ -1,0 +1,10 @@
+[alias]
+	superlog = log --color --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s%Creset %Cgreen(%cd) %C(bold blue)<%an>%Creset' --abbrev-commit --date='format:%Y-%m-%d %H:%M:%S'
+	st = status -s
+	ck = checkout
+	his = log --pretty='%d|| %h || %s || %an||%ad ' --date='format:%Y-%m-%d %H:%M'  --reverse --all
+	addp = add -p
+[core]
+	quotepath = false
+[clean]
+	requireForce = true

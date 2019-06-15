@@ -83,6 +83,17 @@ https://blog.csdn.net/dongfei2033/article/details/76302190
 - linux中的正则表达式  
 https://www.cnblogs.com/andysd/p/3434067.html
 
+# shell  
+
+- 查看当前 shell 
+echo $SHELL
+
+- 查看当前可用 shell  
+cat /etc/shells  
+
+- 改变当前用户的 shell  
+ch -s $(which zsh/bash)
+
 
 # 使用频率很低, 没卵用的命令  
 - diff  
