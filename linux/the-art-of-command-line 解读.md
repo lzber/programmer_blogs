@@ -40,6 +40,11 @@ history 相关 TODO
 在 shell 中打开 finder, 使用 `open ANY_PATH` 来实现.  
 
 
+# 实用和友情链接  
+- explain shell: 一个解释命令和本次输入参数的网站. 网址是: https://explainshell.com  
+
+
+
 # 最后
 我只想说, 我真的是吃多了.  
 这个仓库并没有让我学到很多, 可能学到了一点点吧, 也许以后用的到的东西.  
