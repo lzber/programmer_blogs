@@ -21,8 +21,8 @@ http://www.cnblogs.com/peida/archive/2012/11/29/2794010.html
 mkdir -p Project/a/src
 
 - zip  
-解压: unzip X.zip -d OUT_PUT_DIR  
-压缩: zip [-v:只看不解压]  OUT_PUT_ZIP_NAME.zip -r INPUT_ZIP_DIR  
+解压: unzip [-v:只看不解压]  X.zip -d OUT_PUT_DIR  
+压缩: zip OUT_PUT_ZIP_NAME.zip -r INPUT_ZIP_DIR  
 
 - ps 命令详解  
 ps -ef 的各个字段解释如下, 依照出现顺序:  
@@ -48,6 +48,9 @@ ctrl+z 暂停到后台, ctrl+c 杀掉,
 带上&, 直接放到后台
 使用jobs 可以查看后台任务
 bg %i 放到后台, fg %i 放到前台.
+
+# 快速入门的小抄用法
+curl cheat.sh/COMMAND  
 
 - su  
 su 的语法为： su [-] username
@@ -114,11 +117,6 @@ sudo netstat -tulpn
 tcp        0      0 0.0.0.0:5000            0.0.0.0:*               LISTEN      10913/python3
 (venv) root@zx_vultr:/srv/www/jobplus# kill -9 10913
 
-- wget命令  
-http://www.cnblogs.com/peida/archive/2013/03/18/2965369.html 
--O 重命名
---no-check-certificate的含义
-https://op.ci/104.html
 
 - 不重要 # tar命令
 http://man.linuxde.net/tar 
