@@ -20,18 +20,14 @@ markdown可以方便的转成pdf, 写个人简历特别的方便.妈妈再也不
 # 具体语法细节
 
 ### `#`是第一符号.
+`#`毫无疑问是使用频率第一高的语法标记, 表示一级标题, 字体最大, `#`越多, 级数越低, 其次是`-`, 表示列表.  
 
-
-### 
-- 转义,防止渲染 加  \
-
-- 语法  
-http://xianbai.me/learn-md/article/syntax/blackslash-escapes.html 
-
-- 关于引用 >, 想结束的话, 打一个空格
+### 具体语法
+- 转义,防止渲染 加 `\`  
+- 关于引用 >, 想结束的话, 打一个空格  
 - 想换行, 手动键入`<br>`, 或者在行末尾多打两个空格.  
-- 想保持原格式不变, `<pre></pre>`
-- 单行不转义, \`\`包裹.
+- 想保持原格式不变, `<pre></pre>`  
+- 单行不转义, \`\`包裹, 就是键盘的ESC下面那个键.  
 
 
 - 多级列表  
@@ -41,10 +37,24 @@ http://xianbai.me/learn-md/article/syntax/blackslash-escapes.html
 `*待加粗字符*`会把字符变斜体
 `**待加粗字符**`会把字符加粗
 
+- 换行
+末尾加两个空格.  
 
 # 优质的文章和在线写作网站
 因为我学习Markdown语法浪费了很多时间, 我会逐一把优质的学习文章的地址贴在这里, 今天鉴于时间关系, 就先不加了.  
 后面我会不断完善和丰富这篇文章.  
+- 一个还行的markdown语法教程  
+http://xianbai.me/learn-md/index.html  
+
+- 冷熊简历, 使用markdown写简历  
+http://cv.ftqq.com/?fr=github#  
+
+
+
+# 注意事项!!!
+markdown只规定了基本的语法, 不同的网站和markdown阅读器实现的渲染方式有所不同. 具体看每个网站或者编辑器渲染的约定.  
+最出名的github favored markdown, 本人也正在学习中.  
+后面会把github favored markdown的注意事项贴出来.  
 TODO
 
 # 最后
