@@ -53,7 +53,6 @@ http://xianbai.me/learn-md/index.html
 http://cv.ftqq.com/?fr=github#  
 
 
-
 # 注意事项!!!
 markdown只规定了基本的语法, 不同的网站和markdown阅读器实现的渲染方式有所不同. 具体看每个网站或者编辑器渲染的约定.  
 最出名的github favored markdown, 本人也正在学习中.  
