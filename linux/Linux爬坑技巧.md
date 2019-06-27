@@ -1,12 +1,20 @@
 
 # Linux 常用命令
 
-- 创建别名  
-短名 alias a='xxxx xxx xxx'
+## File CRUD
+- mkdir  
+创建多级目录
+mkdir -p Project/a/src
 
 - 链接  
 软链接, ln -s FROM TO ; 相当于 Windows 里面的快捷方式.  
-但是软链接不可以移动, 否则就会失效. 这一点不像 windows 里的快捷方式.  
+但是软链接不可以移动, 否则就会失效. 这一点不像 windows 里的快捷方式. 
+
+# COMMAND 
+- 创建别名  
+短名 alias a='xxxx xxx xxx'
+
+ 
 
 - find  
 找文件, 根据名字找, 是最常用的, 找配置啥的.  
@@ -16,9 +24,7 @@
 chmod u+x file  
 http://www.cnblogs.com/peida/archive/2012/11/29/2794010.html  
 
-- mkdir  
-创建多级目录
-mkdir -p Project/a/src
+
 
 - zip  
 解压: unzip [-v:只看不解压]  X.zip -d OUT_PUT_DIR  
@@ -122,7 +128,7 @@ tcp        0      0 0.0.0.0:5000            0.0.0.0:*               LISTEN      
 http://man.linuxde.net/tar 
 解压到指定命令 tar -C
 http://www.cnblogs.com/peida/archive/2012/11/30/2795656.html
-tar -z(压缩格式)x(解压)[c, 压缩]f(文件) 文件名 
+tar -z(压缩格式){x(解压)|c(压缩)}f(文件) 文件名 
 
 - 7. awk 完整形式是什么? (2)怎么用?  
 答: 三个作者的名字第一个字母.(2) awk接受输入, 然后 以'{}'开始指定命令, NR表示
@@ -141,5 +147,3 @@ passwd [username]
 
 - 查看一个文件夹的大小  
 du -sh [dictory1] [directory2]  
-
-

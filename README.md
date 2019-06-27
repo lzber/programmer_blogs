@@ -26,10 +26,18 @@
 - [怎么使用Markdown](markdown的用法.md)
 - [编程规范-代码中如何加空格](编程规范/空格.md)
 
-
 ### 基于Linux
 - [Vim的简单使用](linux/vim的使用.md)
 
+# 推荐几个人
+- 阮一峰, 博客大佬, 写的东西不错, 内容丰富, 是给人看的.  
+http://www.ruanyifeng.com/home.html  
+
+- 廖雪峰, 写的教程还不错哦, 通俗易懂.  
+https://www.liaoxuefeng.com/  
+
+- MORE  
+TODO     
 
 # 给自己的勉励以及给所有人的建议
 ***<font color=red>经常写作可以帮助自己,帮助他人, 梳理,检验,和传播自己知道的知识和经验</font>***
