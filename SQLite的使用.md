@@ -6,5 +6,11 @@ TODO
 .schema TABLE_NAME 查看这个表的语句, 以及属性  
 
 # 参考文章
-sqlite3 
+- sqlite3 
 参考 https://www.jianshu.com/p/17e5269c09d4
+- 百易教程
+https://www.yiibai.com/sqlite/quick-start.html
+
+# GUI工具
+我目前用的是 DB brower for sqlite.  
+官网是: https://sqlitebrowser.org/ , 提供免费下载和使用.    
