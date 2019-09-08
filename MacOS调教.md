@@ -91,5 +91,9 @@ profile->session->when idle, send 0 ;
 - 接触端口占用  
 终端输入：lsof -i tcp:port 将port换成被占用的端口(如：8086、9998)
 
+# 如何传文件?
+## 从Iphone到Macbook? 
+利用爱思助手, 关掉ICloud, 导出.   
+
 
 
