@@ -59,9 +59,7 @@ ctrl + r: redo, 重做.
 ### 查找和替换
 在命令行下, 输入 :LNE1,LINE2<font color=red>s</font>/REPLACE/TO_REPLACE/g 刚好可以. 这个`s`不能丢.  
   
-<br>
-<br>
-<hr>
+
 # 不常用的命令
 可视化模式, 按v进入. 大片的选择.  
 
