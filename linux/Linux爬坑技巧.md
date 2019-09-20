@@ -11,7 +11,7 @@ mkdir -p Project/a/src
 但是软链接不可以移动, 否则就会失效. 这一点不像 windows 里的快捷方式. 
 
 # COMMAND 
-- 创建别名  
+- 创建别名, 同义词  
 短名 alias a='xxxx xxx xxx'
 
  
