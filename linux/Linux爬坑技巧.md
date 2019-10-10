@@ -152,6 +152,11 @@ du -sh [dictory1] [directory2]
 
 # 软件安装
 
+## 修改Ubuntu源为阿里云
+https://blog.csdn.net/hang916/article/details/79465458  
+
+
+
 add-apt-repository
 
 - 安装软件 查看已经安装的软件  dpkg –l |grep vim
