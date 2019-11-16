@@ -2,6 +2,9 @@
 当你刚开始用 MacOS 开发的时候, 各种不顺手.   
 这里我就来说一下自己遇到的麻烦和怎么解决的, 怎么把 Mac 调教成自己顺手的工具.  
 
+# numbers
+- opt + ctrl + enter 换行
+
 # 创建快捷方式
 option + command + 鼠标拖拽
 
