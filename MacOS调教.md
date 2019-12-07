@@ -2,6 +2,11 @@
 当你刚开始用 MacOS 开发的时候, 各种不顺手.   
 这里我就来说一下自己遇到的麻烦和怎么解决的, 怎么把 Mac 调教成自己顺手的工具.  
 
+# numbers
+- opt + ctrl + enter 换行
+
+# 创建快捷方式
+option + command + 鼠标拖拽
 
 # Finder
 - 显示完整路径  
@@ -17,6 +22,9 @@ brew 也有不好用的地方, 但是因为它流行, 所以了解一下.
    - brew install/uninstall XXX
    - brew services start/stop/restart XXX
    - brew services list # 查看当前由 brew 启动的服务有哪些.  
+   - brew list # 查看使用 brew 安装的所有应用
+   - brew info FOMULA  # 某个使用 brew 安装的应用FOMULA
+
    服务启动的方式有很多种, brew 只是其中一种.  
 
 ##### 更换 brew 的源 

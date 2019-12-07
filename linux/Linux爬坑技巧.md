@@ -7,8 +7,11 @@
 mkdir -p Project/a/src
 
 - 链接  
+硬链接只能对单个文件  
+链接的目录必须是绝对路径，不能是相对路径  
 软链接, ln -s FROM TO ; 相当于 Windows 里面的快捷方式.  
-但是软链接不可以移动, 否则就会失效. 这一点不像 windows 里的快捷方式. 
+  > 进入一个软链接文件夹不会把 pwd 切换到源目录里去。 还是把软链接当做一个链接
+但是软链接不可以移动, 否则就会失效. 这一点不像 windows 里的快捷方式.   
 
 # COMMAND 
 - 创建别名, 同义词  
@@ -151,6 +154,11 @@ du -sh [dictory1] [directory2]
 
 
 # 软件安装
+
+## 修改Ubuntu源为阿里云
+https://blog.csdn.net/hang916/article/details/79465458  
+
+
 
 add-apt-repository
 
