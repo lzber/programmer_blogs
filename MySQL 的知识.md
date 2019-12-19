@@ -26,7 +26,20 @@
    
    > 参考https://www.cnblogs.com/wangs/p/3346767.html
    linux.md
+
    
+ 启动mysql：
+方式一：sudo /etc/init.d/mysql start 
+方式二：sudo service mysql start
+
+停止mysql：
+方式一：sudo /etc/init.d/mysql stop 
+方式二：sudo service mysql stop
+
+重启mysql：
+方式一：sudo/etc/init.d/mysql restart
+方式二：sudo service mysql restart  
+
 - Mac 上 brew 的用法?  
 brew --help| less  
 brew services --help  
