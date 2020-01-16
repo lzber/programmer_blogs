@@ -6,7 +6,10 @@
 - opt + ctrl + enter 换行
 
 # 创建快捷方式
-option + command + 鼠标拖拽
+option + command + 鼠标拖拽  
+
+# 复制
+option + alt + 鼠标拖拽
 
 # Finder
 - 显示完整路径  
