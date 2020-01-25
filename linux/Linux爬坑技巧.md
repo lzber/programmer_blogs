@@ -385,8 +385,6 @@ https://www.sundabao.com/ubuntu%E4%BD%BF%E7%94%A8shadowsocks/
 
 http://teliute.org/linux/Ubsetup/lesson24/lesson24.html
 
-
-
 # 外部跳转到chrome浏览器无法打开网页
 
 https://blog.csdn.net/Artprog/article/details/71076111
@@ -418,3 +416,7 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 30
 接着输入：
 sudo update-alternatives --config gcc
 版本就被改过来了.
+
+
+# zsh
+history -10

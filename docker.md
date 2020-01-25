@@ -51,3 +51,13 @@ Docker 脚本最后一句话, 但是不能再run 命令后面加 shell 启动命
 
 # Reference  
 本文参考阮一峰老师的教程: http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html , 目前我并没有在实际工作场景中应用过 docker, 不知道的还有很多. 但是了解这么多目前也够了. 理解原理即可. 
+
+# 加速地址
+https://yqo68yqi.mirror.aliyuncs.com  
+https://blog.csdn.net/u012055638/article/details/79803959
+
+# 一篇特别好的docker 教程
+https://www.cnblogs.com/neptunemoon/p/6512121.html
+
+# docker compose
+暂时不需要。  
