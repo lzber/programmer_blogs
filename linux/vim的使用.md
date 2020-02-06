@@ -68,3 +68,5 @@ ctrl + u/d 向上/下翻半页
 ctrl + f/b 想下/上翻一页.  
 为什么f/b翻的页数多呢? f, forward, b, back, 这两牛逼就完了.  
 
+
+

@@ -61,3 +61,75 @@ https://www.cnblogs.com/neptunemoon/p/6512121.html
 
 # docker compose
 暂时不需要。  
+
+
+
+# image命令
+
+```bash
+docker image ls
+```
+
+# container命令
+
+```bash
+ docker container start [containerID]
+ docker container stop [containerID] # 温柔中断
+docker container kill [containerID] # 暴力中断
+docker container logs [containerID] # 查看日志
+docker container exec -it [containerID] /bin/bash
+
+```
+
+# 修改docker国内仓库
+
+```http
+https://registry.docker-cn.com
+https://yqo68yqi.mirror.aliyuncs.com
+```
+
+# 其他
+
+mac上因为系统限制ping不了docker的容器
+
+所以可以设置-p 8080:80 把端口映射出来
+
+
+
+# 端口映射
+
+```bash
+$ docker container run --rm -p 8000:3000 -it koa-demo /bin/bash
+```
+
+
+
+# 参数解释
+
+- `-d`：容器启动后，在后台运行。
+- `--rm`：容器终止运行后，自动删除容器文件。
+- `--name wordpressdb`：容器的名字叫做`wordpressdb`
+- `--env MYSQL_ROOT_PASSWORD=123456`：向容器进程传入一个环境变量`MYSQL_ROOT_PASSWORD`，该变量会被用作 MySQL 的根密码。
+
+
+
+# 命令demo
+
+docker run -d \
+ -h mysql \
+-v /data/mysql:/var/lib/mysql \
+-p 3306:3306 \
+--name mysql \
+-e MYSQL_ROOT_PASSWORD=root \
+mysql 
+
+> -h 设定主机名
+
+> -d,  --detach   Run container in background and print container ID
+
+$sudo docker run 
+--name phpadmin 
+--link mysql:db  # db是别名
+-p 9998:80 
+-d 
+phpmyadmin/phpmyadmin 
